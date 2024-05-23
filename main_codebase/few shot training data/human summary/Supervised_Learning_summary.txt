@@ -1,0 +1,7 @@
+﻿* Supervised learning involves providing a data set with correct answers to the algorithm.
+* Regression problems predict continuous-valued outputs, such as house prices or continuous values.
+* Classification problems predict discrete-valued outputs, such as whether a tumor is benign or malignant.
+* Breast cancer diagnosis involves predicting whether a tumor is benign or malignant based on its size.
+* Machine learning algorithms can utilize multiple features or attributes to make predictions, including tumor size, age, and other medical characteristics.
+* Support vector machines can handle an infinite number of features by using a mathematical trick.
+* Regression problems predict continuous outputs, such as number of items sold, while classification problems predict discrete outputs, such as hacked vs. non-hacked accounts.

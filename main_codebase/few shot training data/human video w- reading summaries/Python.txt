@@ -1,0 +1,20 @@
+﻿Expressions are a combination of objects and operators that compute a value. Many expressions involve a boolean data type, which takes values True or False and must be capitalized. Not capitalizing will make it unrecognizable to Python and will throw an error.
+
+Boolean operations ("or", "and", "not") take one or more boolean objects and return boolean results.
+* "X Or Y" returns True if either the X or Y argument is True.
+* "X And Y" returns True only if both X and Y arguments are True.
+* "Not X" negates the value of its argument X, switching the truth value of the boolean.
+
+Python provides eight comparison operations for various types, including numbers and sequences. Although they are commonly used for numeric types, we can apply them to other types as well. The result of a comparison will always return a boolean output.
+* <: Less than
+* <=: Less than or equal to
+* >: greater than
+* >=: greater than or equal to
+* ==: Equal to
+* !=: Not equal to
+* is: Same object
+* is not: Different object
+
+The “is”  and “is not” can test if two objects are one and the same, which is different from saying whether or not contents are the same. In Python, “==” compares by value. The “is” operator may be used to compare object identities (comparison by reference), and comparisons may be chained—for example, a <= b <= c. 
+
+In Python, a distinction between expressions and statements is rigidly enforced. Statements cannot be a part of an expression—so list and other comprehensions or lambda expressions, all being expressions, cannot contain statements. A particular case is that an assignment statement such as a = 1 cannot form part of the conditional expression of a conditional statement.

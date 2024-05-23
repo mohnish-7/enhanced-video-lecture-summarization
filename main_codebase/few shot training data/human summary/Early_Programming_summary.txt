@@ -1,0 +1,15 @@
+﻿* Topic: Computers before the development of modern storage devices
+* Complex circuits in computers store and retrieve values, perform operations, and process sequences of operations (programs).
+* Programs must be loaded into computer memory to execute.
+* Early methods
+   * Punch cards pioneered data storage and program loading, enabling patterned textile weaving and efficient census tabulation.
+   * Plug boards allowed for reprogramming machines, but their wiring complexity hindered convenience.
+      * Swappable plug boards simplified programming, enabling different programs to be used without rewiring.
+   * Panel programming: Used switches and buttons to input data and programs, common on home computers of the 1950s and 60s.
+* Stored-program computers emerged in the late 1940s, storing programs and data in memory for easy access and modification.
+* Electronic memory enabled the von Neumann architecture, combining data and instructions in a single shared memory.
+* The von Neumann architecture standardized the structure of these computers, including a central processing unit, memory, and input/output devices.
+* Even with electronic memory, punch cards remained a common way to load programs until the 1980s.
+* Other methods like punched paper tape and control panels with switches and buttons were also used.
+* Programming these early computers was difficult and time-consuming, requiring expertise in hardware and machine code.
+* The need for a simpler way to program computers led to the development of programming languages

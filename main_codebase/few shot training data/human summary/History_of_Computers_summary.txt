@@ -1,0 +1,19 @@
+﻿* Topic: Historic Overview of Computers
+* Course Overview: Exploration of computing concepts and technologies, from basic components to advanced systems, without focusing on programming.
+   * So in this series, we’re going break down those layers, and build up from simple 1’s and 0’s, to logic units, CPUs, operating systems, the entire internet and beyond
+* Impact of Computing: Computers have become essential for various aspects of modern life, from infrastructure operation to scientific advancement.
+* Historical Evolution: Computing devices have evolved over time, from the abacus and astrolabe to electronic computers.
+* Definition of "Computer": Initially a job title for human calculators, the term "computer" gradually shifted to refer to devices in the 1800s.
+* Gottfried Leibniz's Step Reckoner: A mechanical calculator that automated addition, subtraction, multiplication, and division operations.
+* Pre-computed tables:
+   * Used for tasks like finding square roots.
+   * Faster and more accurate than hand calculations.
+   * Especially important for military applications like artillery firing.
+* Babbage's Difference Engine: A proposed mechanical device for approximating polynomials, never fully constructed.
+* The Analytical Engine:
+   * More complex than the Difference Engine.
+   * General-purpose computer, not limited to one task.
+   * Had memory and a primitive printer.
+   * Never fully built but inspired future generations.
+* Ada Lovelace: Wrote hypothetical programs for the Analytical Engine, considered the world's first programmer.
+* Punch Card Tabulation: Herman Hollerith's electro-mechanical machine used punch cards to efficiently process data for the 1890 US census.

@@ -1,0 +1,10 @@
+
+- Web Audio API:
+    - Process and synthesize audio in web applications.
+    - Load, play, loop, and process sound samples.
+    - Apply sound effects (reverberation, delay, etc.).
+    - Create real-time audio visualizations.
+    - Suitable for games and music applications.
+- Track API:
+    - Synchronize video with other elements in the document.
+    - Example: display map, description, or Wikipedia page alongside video.

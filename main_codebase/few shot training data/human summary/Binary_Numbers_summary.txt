@@ -1,0 +1,16 @@
+- How computers store and compute numerical data
+- Single binary values represent numbers; 0 and 1 can be used to represent "true" and "false," allowing for information beyond these two values.
+- Binary numbers work similarly to decimal numbers, using a base-two system with multipliers that are powers of two to represent larger numbers.
+    - 73 is equal to seven 10's and three 1's in decimal, hence 73 in decimal form
+    - 73 is equal to one 64's, one 8's, and one 1's, hence 01001001 in binary form
+- Each binary digit (bit) represents a certain value, with a range of 0-255 in 8-bit systems.
+- 8-bits is such a common size in computing, it as known as a byte. 
+- Computers using 32 bits numbers represent negative numbers using the first bit, typically reserving 31 bits for the number itself.
+- 64-bit numbers expand the range of representable values to around 9.2 quintillion.
+- Computers use floating-point numbers to represent non-whole numbers, with a significand and exponent.
+    - 625.9 = 0.6259 * 10^3, where 0.6529 is the signicand, and 3 is the exponent
+    - In 32 bit floating point number, the first bit is used for sign, 8 bits are used for exponent, last 23 are for signicand.
+- Text is represented in computers using encoding schemes like ASCII, which assigns binary numbers to letters.
+- Interoperability - Ability to universally exchange information.
+- Unicode provides a universal encoding scheme for characters from multiple languages.
+- All data within a computer can be broken down into a long stream of bits.

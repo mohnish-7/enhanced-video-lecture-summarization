@@ -1,0 +1,17 @@
+A central processing unit (CPU)—also called a central processor or main processor—is the most important processor in a given computer. Its electronic circuitry executes instructions of a computer program, such as arithmetic, logic, controlling, and input/output (I/O) operations. This role contrasts with that of external components, such as main memory and I/O circuitry,[1] and specialized coprocessors such as graphics processing units (GPUs).
+
+A CPU consists of a RAM module, registers, an Arithmetic and Logic Unit (ALU), an instruction address register, and an instruction register. Some of its’ components are as follows: 
+* RAM: Location to store memory
+* Registers: Temporarily store and manipulate values
+* ALU: Perform mathematical or logical operations
+* Instruction address register: Keep track of where we are in a program
+* Instruction register: Store the current instruction
+
+The CPU performs instruction in three phases: 
+* In the fetch phase, the CPU uses the instruction address register to access instruction from RAM, and then load that instruction into the instruction register. The instruction's location (address) in program memory is determined by the instruction pointer. After an instruction is fetched, the PC is incremented by the length of the instruction so that it will contain the address of the next instruction in the sequence
+* In the decode phase, it decodes the instruction that was fetched to get the opcode and the RAM addresses to access. Often, one group of bits (that is, a "field") within the instruction, called the opcode, indicates which operation is to be performed, while the remaining fields usually provide supplemental information required for the operation, such as the operands. Those operands may be specified as a constant value (called an immediate value), or as the location of a value that may be a processor register or a memory address, as determined by some addressing mode
+* The execute phase performs the instruction by configuring the ALU and other components based on the decoded opcode. Depending on the CPU architecture, this may consist of a single action or a sequence of actions. During each action, control signals electrically enable or disable various parts of the CPU so they can perform all or part of the desired operation. 
+
+The component that runs this process is called the control unit, which directs the flow of data and operations within the CPU, acting as the conductor of an orchestra.  It tells the computer's memory, arithmetic and logic unit and input and output devices how to respond to the instructions that have been sent to the processor.
+
+In order to run the computer clock forces the CPU to continue going through the phases by sending an electrical signal at regular intervals to advance internal operations. The clock speed, measured in Hertz, determines the frequency at which the CPU executes cycles. CPUs can be overclocked (increased clock speed) or underclocked (decreased clock speed) to optimize performance or save power.

@@ -1,0 +1,17 @@
+﻿* Topic: Boolean logic in python
+* Expressions involve a boolean data type, which takes values True or False and must be capitalized.
+* Boolean operations ("or", "and", "not") take boolean objects and return boolean results.
+* "Or" returns True if either argument is True.
+* "And" returns True only if both arguments are True.
+* "Not" negates the value of its argument.
+* Python provides eight comparison operations for various types, including numbers and sequences.
+   * <: Less than
+   * <=: Less than or equal to
+   * >: greater than
+   * >=: greater than or equal to
+   * ==: Equal to
+   * !=: Not equal to
+   * is: Same object
+   * is not: Different object
+* Comparisons return boolean results, True or False.
+* The "is" and "is not" operations test object identity, while other comparison operations test value equality

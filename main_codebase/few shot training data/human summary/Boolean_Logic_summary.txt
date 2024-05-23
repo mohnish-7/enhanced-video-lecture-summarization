@@ -1,0 +1,9 @@
+﻿* Topic: Boolean Logic and Logic Gates
+* Computers use binary (1s and 0s) to represent information, as it offers distinct signals and aligns with Boolean Algebra.
+* Boolean Algebra, developed by George Boole, provides systematic rules for logical operations using true and false values.
+* The three fundamental Boolean operations are NOT, AND, and OR, which can be built using transistors.
+* Transistors are like electrically controlled switches
+* NOT negates a single input, AND requires both inputs to be true for a true output, while OR requires only one input to be true.
+* By combining logic gates, more complex boolean operations can be created, such as XOR (exclusive OR), which is useful in computation.
+* Computer engineers design processors using larger blocks, including logic gates and components built from gates.
+* Abstractions allow for complex systems to be built without considering the underlying implementation details, such as transistors or electrical signals.- Computers evolved from electromechanical devices to electronic computers with transistors, which can represent "true" and "false" with binary states.

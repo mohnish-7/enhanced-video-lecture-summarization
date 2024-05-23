@@ -1,0 +1,8 @@
+﻿* This video introduces linear regression as the first learning algorithm, showcasing its process in supervised learning.
+* Supervised learning involves predicting real-valued outputs (regression) or discrete values (classification).
+* Notation is introduced: M for training examples, X for input variables, Y for target variables, and X, Y for individual training examples.
+* The hypothesis (H) function models the relationship between inputs (X) and outputs (Y).
+   * The job of the learning algorithm is to determine this function from the training set and utilize this to predict Y given some X.
+* Linear regression is a specific hypothesis function that assumes a linear relationship between X and Y.
+   * H(x) = Θ0 + Θ1 * x 
+* Linear regression with one variable is also known as simple linear regression or univariate linear regression.

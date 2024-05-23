@@ -1,0 +1,18 @@
+﻿Linear regression plays an important role in the subfield of artificial intelligence known as machine learning. The linear regression algorithm is one of the fundamental supervised machine-learning algorithms due to its relative simplicity and well-known properties. Linear regression can be used to fit a predictive model to an observed data set of values of the response and explanatory variables. 
+
+This video introduces linear regression as the first learning algorithm, showcasing its process in supervised learning. In supervised learning, we are training a model using a dataset such that each example of the data is given the “right answer” to find the function that we want to discover. 
+
+For example, suppose your friend is looking to sell their house and looking to see how much their house is worth. What they have is a dataset consisting of labeled pairs of the sizes of houses and its associated price. A supervised learning algorithm will learn from these pairs and will try to learn a mapping from the sizes of a house to the price of a house from the dataset. The model can then be used to predict the value of your friend’s house based on the size of their house.
+
+This problem is also known as a regression problem, as the term regression refers to the fact that we are trying to predict real-valued output.
+
+In supervised learning, we have a training set (in this example, it is the set of the prices of the house) and our job is to learn from this data how to predict the outputs (the house prices). For this, we are going to introduce some notation:
+* “m” will refer to the number of training examples
+* “x” will refer to an input variables/features
+* “y” will refer to the output/target variables
+* (x, y) will refer to a single training example (input/output pair)
+* (x(i), y(i)) will refer to the i-th specific training example
+
+In supervised learning, we start off with a training set and we feed that to our learning algorithm. It is the job of the learning algorithm to then output a function which by convection is usually denoted “h” where “h” stands for hypothesis. The hypothesis is a function, in the housing example, is to take the size of the house(x) and try to output the estimated value (y). In summary, “h” is a function that maps x’s to y’s. 
+
+In linear regression, the hypothesis function is assumed to be a linear relationship between X and Y. We can represent this relationship as function h(x) = Θ0 + Θ1 * x, where Θ0 and Θ1 are parameters learned by the learning algorithm. Linear regression with one variable is also known as simple linear regression or univariate linear regression.

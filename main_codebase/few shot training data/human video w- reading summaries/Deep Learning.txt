@@ -1,0 +1,18 @@
+Classical machine learning involves defining functions to predict a label value (y) based on input features (x), typically using algorithms like logistic regression to determine coefficients. Deep learning is a class of machine learning algorithms that uses multiple layers to progressively extract higher-level features from the raw input.
+
+Deep learning mimics the human brain by using artificial neurons with weighted inputs (x), bias (b), and an activation function to determine firing or non-firing (y). This can be represented by the equation, y = f(x, w, b), where:
+* Activation function: Some function f(x, w, b) that outputs some value y to determine fire/non-firing. Often use a function that maps y to a value between 0 and 1.
+* x: Inputs of the neurons
+* w: Weights that is applied to input
+* b: Bias 
+* y: Whether or not the neuron fires.
+
+These artificial neurons are interconnected in layers, with weighted connections between neurons allowing for complex function approximation. A deep learning neural network has many interconnected layers, known as hidden layers, until the output is connected to an output layer, where the number of neurons is the same as the number of classes.
+
+In deep learning, each level learns to transform its input data into a slightly more abstract and composite representation. In an image recognition application, the raw input may be a matrix of pixels; the first representational layer may abstract the pixels and encode edges; the second layer may compose and encode arrangements of edges; the third layer may encode a nose and eyes; and the fourth layer may recognize that the image contains a face. Importantly, a deep learning process can learn which features to optimally place in which level on its own. This does not eliminate the need for hand-tuning; for example, varying numbers of layers and layer sizes can provide different degrees of abstraction.
+
+The loss function measures the difference between predicted probabilities and known labels, indicating the amount of error in the model. We want to use this loss function to collect the gradient in order to calculate how much you need to adjust the model's weight and biases to reduce the amount of loss. The amount you adjust each variable by is called the learning rate. A low learning rate results in small adjustments, meaning we might have to do a lot of iterations to minimize the error. Too large of a learning rate results in large adjustments, so we might step too far and not find the minimum part of the gradient
+
+The gradient of the loss function guides adjustments to weights and biases to reduce loss through a process known as backpropagation. Backpropagation is a gradient estimation method that utilizes the chain rule to determine how best to adjust the weights and biases to minimize the loss function which involves. Training a neural network involves feeding input data with known labels and iteratively performing backpropagation to adjust weights and biases to minimize loss through epochs (cycles of training and validation). Since GPUs are optimized for the linear algebra calculations used in training deep learning models, it makes them commonly used for this purpose.
+
+

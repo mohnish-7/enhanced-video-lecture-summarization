@@ -1,0 +1,17 @@
+- Classical machine learning involves defining functions to predict a label value (y) based on input features (x), typically using algorithms like logistic regression to determine coefficients.
+- Deep learning mimics the human brain by using artificial neurons with weighted inputs (x), bias (b), and an activation function to determine firing or non-firing (y).
+    - Activation function: Some function f(x, w, b) that outputs some value y to determine fire/non-firing. Often use a function that maps y to a value between 0 and 1.
+    - x: Inputs of the neurons
+    - w: Weights that is applied to input
+    - b: Bias 
+    - y: Whether or not the the neuron fires.
+- Artificial neurons are interconnected in layers, with weighted connections between neurons allowing for complex function approximation.
+- A deep learning neural network has many interconnected layers, known as hidden layers, until the output is connected to an output layer, where the number of neurons is the same as the number of classes.
+- The loss function measures the difference between predicted probabilities and known labels, indicating the amount of error in the model.
+- The gradient of the loss function guides adjustments to weights and biases to reduce loss, a process known as backpropagation.
+    - The amount you adjust each variable by is called the learning rate. 
+    - A low learning rate results in small adjustments, meaning we might have to do a lot of iterations to minimize the error
+    - Too large of a learning rate results in large adjustments, so we might step too far and not find the minimum part of the gradient
+    - Backpropagation - A method to determine how best to adjust the weights and biases to minimize the loss functino
+- Training a neural network involves feeding input data with known labels and iteratively performing backpropagation to adjust weights and biases to minimize loss through epochs (cycles of training and validation).
+- GPUs are optimized for the linear algebra calculations used in training deep learning models, making them commonly used for this purpose.

@@ -1,0 +1,7 @@
+- In 1991, Linus Torvalds created Linux, an open-source operating system (OS).
+- Torvalds's decision to release Linux under the GPL license granted users significant freedoms, including the ability to modify and redistribute the software.
+- Linux gained global popularity and fueled the rise of a commercial ecosystem around it.
+- Companies like Red Hat and IBM invested heavily in Linux, leading to its widespread adoption.
+- Today, Linux powers numerous critical systems, including stock exchanges, web servers, and supercomputers.
+- The Linux development community continues to thrive with thousands of contributors and regular releases.
+- Linus Torvalds, the creator of Linux, remains actively involved in its development from his home office in Portland, Oregon.

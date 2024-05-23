@@ -1,0 +1,16 @@
+- Processors are the heart of any computer, responsible for executing programs and performing calculations.
+- A CPU consists of a RAM module, registers, an Arithmetic and Logic Unit (ALU), an instruction address register, and an instruction register.
+    - RAM: Location to store memory
+    - Registers: Temporarily store and manipulate values
+    - ALU: Perform mathematical or logical operations
+    - Instruction address register: Keep track of where we are in a program
+    - Instruction register: Store the current instruction
+- The fetch phase involves retrieving an instruction from memory, while the decode phase interprets the instruction's opcode.
+    - Fetch phase: Use instruction address register to access instruction from RAM, and then load that instruction into the instruction register.
+    - Decode phase: Decode the instruction to get the opcode and the RAM address
+- The execute phase performs the instruction by configuring the ALU and other components based on the decoded opcode.
+    - To complete the execute phase after performing the instruction, it then increments the instruction address registed by one to get the next instruction.
+- The Control Unit directs the flow of data and operations within the CPU, acting as the conductor of an orchestra.
+- The clock forces the CPU to continue going through the phases by sending an alectrical signal at regular intervals to advance internal operations.
+- Clock speed, measured in Hertz, determines the frequency at which the CPU executes cycles.
+- CPUs can be overclocked (increased clock speed) or underclocked (decreased clock speed) to optimize performance or save power.

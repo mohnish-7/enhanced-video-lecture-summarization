@@ -1,0 +1,11 @@
+﻿* Topic: Introduction to Machine Learning
+* Machine learning enables computers to learn without explicit programming, as defined by Samuel and Mitchell.
+* Definition: A computer program is said to learn from experience E with respect to some task T and some performance measure key evidence performance on T as measured by P improves of experience E
+   * Example: Let's say your email program watches which emails you do or do not value spam so in an email client like this you might click this spam button to report some email as spam but not other emails and based on which emails you Marcus them say your email program learns better how to filter a spam email what is the task of T in this setting
+   * Classifying emails as spam or not spam
+* In supervised learning, the machine is taught to perform a task, while in unsupervised learning, it learns independently.
+* Reinforcement learning and recommender systems are other popular machine learning algorithms.
+* A key aspect of this course is providing practical advice for applying learning algorithms effectively.
+* Real-world applications of machine learning face challenges that can be solved with best practices.
+* The course aims to develop students' skills in designing and building robust machine learning and AI systems.
+* By applying machine learning best practices, practitioners can increase their chances of success and avoid wasted effort.

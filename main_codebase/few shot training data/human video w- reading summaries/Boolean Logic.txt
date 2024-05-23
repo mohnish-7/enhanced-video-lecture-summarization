@@ -1,0 +1,13 @@
+﻿Computers use binary (1s and 0s) to represent information, as it offers distinct signals and aligns with Boolean Algebra.
+
+Today, all modern general-purpose computers perform their functions using two-value Boolean logic; that is, their electrical circuits are a physical manifestation of two-value Boolean logic. They achieve this in various ways: as voltages on wires in high-speed circuits and capacitive storage devices, as orientations of a magnetic domain in ferromagnetic storage devices, as holes in punched cards or paper tape, and so on
+
+Of course, it is possible to code more than two symbols in any given medium. For example, one might use respectively 0, 1, 2, and 3 volts to code a four-symbol alphabet on a wire, or holes of different sizes in a punched card. In practice, the tight constraints of high speed, small size, and low power combine to make noise a major factor. This makes it hard to distinguish between symbols when there are several possible symbols that could occur at a single site. Rather than attempting to distinguish between four voltages on one wire, digital designers have settled on two voltages per wire, high and low.
+
+Boolean Algebra, developed by George Boole, provides systematic rules for logical operations using true and false values. It differs from elementary algebra in two ways. First, the values of the variables are the truth values true and false, usually denoted 1 and 0, whereas in elementary algebra the values of the variables are numbers. Second, Boolean algebra uses logical operators such as conjunction (and) denoted as ∧, disjunction (or) denoted as ∨, and the negation (not) denoted as ¬
+
+In terms of the computer architecture, the three fundamental Boolean operations, being NOT, AND, and OR, can be built using electrically controlled switches called transistors. NOT negates a single input, AND requires both inputs to be true for a true output, while OR requires only one input to be true. 
+
+The construction of these Boolean operations can be done by combining a series of logic gates. By combining more logic gates, more complex boolean operations can be created, such as XOR (exclusive OR), which is useful in computation. Computer engineers design processors using larger blocks, including logic gates and components built from gates in order to build larger abstractions.
+
+Abstractions allow for complex systems to be built without considering the underlying implementation details, such as transistors or electrical signals. Computers evolved from electromechanical devices to electronic computers with transistors, which can represent "true" and "false" with binary states.

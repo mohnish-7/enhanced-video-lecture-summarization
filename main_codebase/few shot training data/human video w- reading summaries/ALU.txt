@@ -1,0 +1,28 @@
+﻿An ALU (Arithmetic and Logic Unit) is the "mathematical brain" of a computer that performs calculations and logical operations. The arithmetic unit handles all arithmetic and bitwise operations on integer binary numbers in the computer. 
+
+The ALU is made up of smaller circuits that make up the functionalities of the component. The simplest adding circuit is a "half adder" that adds two binary digits and produces a sum and carry bit. A "full adder" is a more complex circuit that adds three binary digits and handles the carry bit. An 8-bit ripple carry adder adds two 8-bit binary numbers by connecting half and full adders in a chain. 
+
+When two 8-bit numbers are added and there is a carry into the 9th bit, it means the sum of the two numbers is too large to fit into 8-bits. This is called an overflow. If we want to avoid overflows, we can extend our circuit with more full adders, allowing us to add 16 or 32 bit numbers, at the cost of speed. Modern computers use a slightly different adding circuit called a ‘carry-look-ahead’ adder which is faster, but ultimately does exactly the same thing-- adds binary numbers
+
+The arithmetic unit of an ALU also performs other math operations, such as subtraction and incrementing, by combining logic gates. Some of the arithmetic operations are as follows:
+* Add: A and B are summed and the sum appears at Y and carry-out.
+* Add with carry: A, B and carry-in are summed and the sum appears at Y and carry-out.
+* Subtract: B is subtracted from A (or vice versa) and the difference appears at Y and carry-out. For this function, carry-out is effectively a "borrow" indicator. 
+* Subtract with borrow: B is subtracted from A (or vice versa) with borrow (carry-in) and the difference appears at Y and carry-out (borrow out).
+* Two's complement (negate): A (or B) is subtracted from zero and the difference appears at Y.
+* Increment: A (or B) is increased by one and the resulting value appears at Y.
+* Decrement: A (or B) is decreased by one and the resulting value appears at Y.
+* Pass through: all bits of A (or B) appear unmodified at Y. This operation is typically used to determine the parity of the operand or whether it is zero or negative, or to load the operand into a processor register.
+
+The logic unit of an ALU performs logical operations, such as AND, OR, and NOT, and tests numerical conditions. Some operations are as follows: 
+* AND: the bitwise AND of A and B appears at Y.
+* OR: the bitwise OR of A and B appears at Y.
+* Exclusive-OR: the bitwise XOR of A and B appears at Y.
+* Ones' complement: all bits of A (or B) are inverted and appear at Y.
+
+ALUs use flags to indicate specific statuses, such as zero, negative, and overflow, which are used to control program execution.
+* Carry-out, which conveys the carry resulting from an addition operation, the borrow resulting from a subtraction operation, or the overflow bit resulting from a binary shift operation.
+* Zero, which indicates all bits of Y are logic zero.
+* Negative, which indicates the result of an arithmetic operation is negative.
+* Overflow, which indicates the result of an arithmetic operation has exceeded the numeric range of Y.
+* Parity, which indicates whether an even or odd number of bits in Y are logic one.

@@ -1,0 +1,8 @@
+﻿* Topic - Giving Instructions to CPU to perform tasks
+* CPUs combine an ALU, control unit, memory, and clock to perform tasks based on instructions.
+* Instructions are sequences of opcodes and addresses/registers that control CPU operations.
+* Instructions are stored in memory, allowing for easy program modification and control by software.
+* Basic instructions include LOAD, STORE, ADD, and SUBTRACT, enabling simple arithmetic operations.
+* JUMP and JUMP_NEGATIVE instructions allow for program flow control and conditional execution.
+* HALT instruction signifies the end of a program and prevents infinite loops.
+* Modern CPUs use larger instruction lengths (32-64 bits) and variable-length instructions, increasing instruction capacity and flexibility.

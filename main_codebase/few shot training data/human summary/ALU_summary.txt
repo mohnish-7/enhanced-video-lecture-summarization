@@ -1,0 +1,12 @@
+﻿* Topic - How the ALU computes
+* An ALU (Arithmetic and Logic Unit) is the "mathematical brain" of a computer that performs calculations and logical operations.
+   * Arithmetic unit handle all numeric operations in computer
+* The simplest adding circuit is a "half adder" that adds two binary digits and produces a sum and carry bit.
+* A "full adder" is a more complex circuit that adds three binary digits and handles the carry bit.
+* An 8-bit ripple carry adder adds two 8-bit binary numbers by connecting half and full adders in a chain.
+   * ​​If there is a carry into the 9th bit, it means the sum of the two numbers is too large to fit into 8-bits. This is called an overflow.
+   * So if we want to avoid overflows, we can extend our circuit with more full adders, allowing us to add 16 or 32 bit numbers, at the cost of speed
+   * Modern computers use a slightly different adding circuit called a ‘carry-look-ahead’ adder which is faster, but ultimately does exactly the same thing-- adds binary numbers
+* The arithmetic unit of an ALU also performs other math operations, such as subtraction and incrementing, by combining logic gates.
+* The logic unit of an ALU performs logical operations, such as AND, OR, and NOT, and tests numerical conditions.
+* ALUs use flags to indicate specific statuses, such as zero, negative, and overflow, which are used to control program execution.

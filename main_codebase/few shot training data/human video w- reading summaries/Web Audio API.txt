@@ -1,0 +1,11 @@
+The Web Audio API specification developed by W3C describes a high-level JavaScript API for processing and synthesizing audio in web applications. The primary paradigm is of an audio routing graph, where a number of AudioNode objects are connected together to define the overall audio rendering.
+
+The Web Audio API allows developers to perform tasks such as:
+* Process and synthesize audio in web applications
+* Load, play, loop, and process sound samples
+* Apply sound effects such as reverberation, delay, graphic equalizer, compressor, distortion, etc.
+* Create real-time audio visualizations like dancing frequency graphs, animated waveforms that dance with the music, or generate music programmatically.
+
+These capabilities make WebAudioAPI suitable for games and music applications. WebAudio API is available on web browsers such as Google Chrome, Firefox, Opera, Safari, Microsoft Edge and Opera GX and also available on Google Chrome, Firefox and Safari on mobile devices.
+
+Another particular suitable multimedia feature is Track API. Using Track API, you will be able to  synchronize video with other elements in the document, such as display a Google Map, an HTML description or a Wikipedia page beside the video, while it’s playing.

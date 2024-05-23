@@ -1,0 +1,81 @@
+HTML5 Audio is a subject of the HTML5 specification, incorporating audio input, playback, and synthesis, as well as in the browser. iOS 
+
+
+== <audio> element ==
+The <audio> element represents a sound, or an audio stream. It is commonly used to play back a single audio file within a web page, showing a GUI widget with play/pause/volume controls.
+The <audio> element has these attributes:
+
+global attributes (accesskey; class; contenteditable; contextmenu; dir; draggable; dropzone; hidden; id; lang; spellcheck; style; tabindex; title; translate)
+autoplay = "autoplay" or "" (empty string) or emptyInstructs the User-Agent to automatically begin playback of the audio stream as soon as it can do so without stopping.
+preload = "none" or "metadata" or "auto" or "" (empty string) or emptyRepresents a hint to the User-Agent about whether optimistic downloading of the audio stream itself or its metadata is considered worthwhile.
+"none": Hints to the User-Agent that the user is not expected to need the audio stream, or that minimizing unnecessary traffic is desirable.
+"metadata": Hints to the User-Agent that the user is not expected to need the audio stream, but that fetching its metadata (duration and so on) is desirable.
+"auto": Hints to the User-Agent that optimistically downloading the entire audio stream is considered desirable.
+controls = "controls" or "" (empty string) or emptyInstructs the User-Agent to expose a user interface for controlling playback of the audio stream.
+loop = "loop" or "" (empty string) or emptyInstructs the User-Agent to seek back to the start of the audio stream upon reaching the end.
+mediagroup = stringInstructs the User-Agent to link multiple videos and/or audio streams together.
+muted = "muted" or "" (empty string) or emptyRepresents the default state of the audio stream, potentially overriding user preferences.
+src = non-empty [URL] potentially surrounded by spacesThe URL for the audio stream.Example:
+
+
+=== Supporting browsers ===
+On PC:
+
+Google Chrome
+Internet Explorer 9
+Firefox 3.5
+Opera 10.5
+Google
+Safari 3.1On mobile devices:
+
+Android Browser 2.3
+
+Google Chrome
+Internet Explorer Mobile 9
+Safari 4
+Firefox
+Opera Mobile 11
+
+
+== Supported audio coding formats ==
+The adoption of HTML5 audio, as with HTML5 video, has become polarized between proponents of free and patent-encumbered formats. In 2007, the recommendation to use Vorbis was retracted from the specification by the W3C together with that to use Ogg Theora, citing the lack of a format accepted by all the major browser vendors.
+Apple and Microsoft support the ISO/IEC-defined formats AAC and the older MP3. Mozilla and Opera support the free and open, royalty-free Vorbis format in Ogg and WebM containers, and criticize the patent-encumbered nature of MP3 and AAC, which are guaranteed to be “non-free”. Google has so far provided support for all common formats.
+Most AAC files with finite length are wrapped in an MPEG-4 container (.mp4, .m4a), which is supported natively in Internet Explorer, Safari, and Chrome, and supported by the OS in Firefox and Opera. Most AAC live streams with infinite length are wrapped in an Audio Data Transport Stream container (.aac, .adts), which is supported by Chrome, Safari, Firefox and Edge.Many browsers also support uncompressed PCM audio in a WAVE container.In 2012, the free and open royalty-free Opus format was released and standardized by IETF. It is supported by Mozilla, Google, Opera and Edge.This table documents the current support for audio coding formats by the <audio> element.
+
+
+== Web Audio API and MediaStream Processing API ==
+The Web Audio API specification developed by W3C describes a high-level JavaScript API for processing and synthesizing audio in web applications. The primary paradigm is of an audio routing graph, where a number of AudioNode objects are connected together to define the overall audio rendering. The actual processing will primarily take place in the underlying implementation (typically optimized Assembly / C / C++ code), but direct JavaScript processing and synthesis is also supported.Mozilla's Firefox browser implements a similar Audio Data API extension since version 4, implemented in 2010  and released in 2011, but Mozilla warns it is non-standard and deprecated, and recommends the Web Audio API instead.
+Some JavaScript audio processing and synthesis libraries such as Audiolet Archived 2013-01-28 at the Wayback Machine support both APIs.
+The W3C Audio Working Group is also considering the MediaStream Processing API specification developed by Mozilla.
+In addition to audio mixing and processing, it covers more general media streaming, including synchronization with HTML elements, capture of audio and video streams, and peer-to-peer routing of such media streams.
+
+
+=== Supporting browsers ===
+On PC:
+
+Google Chrome 10 (Enabled by default since 14)
+Firefox 23 (Enabled by default since 25)
+Opera 15
+Safari 6
+Microsoft Edge 12
+Opera GX 36On mobile devices:
+
+Google Chrome for Android 28 (Enabled by default since 29) and Apple iPads
+Safari 6 (Has restrictions on use (Muted unless user called))
+Firefox 23 (Enabled by default since 25)
+Tizen
+
+
+== Web Speech API ==
+The Web Speech API aims to provide an alternative input method for web applications (without using a keyboard). With this API, developers can give web apps the ability to transcribe voice to text, from the computer's microphone. The recorded audio is sent to speech servers for transcription, after which the text is typed out for the user. The API itself is agnostic of the underlying speech recognition implementation and can support both server based as well as embedded recognizers.
+The HTML Speech Incubator group has proposed the implementation of audio-speech technology in browsers in the form of uniform, cross-platform APIs. The API contains both:
+Speech Input API
+Text to Speech APIGoogle integrated this feature into Google Chrome in March 2011. Letting its users search the web with their voice with code like:
+
+
+=== Supporting browsers ===
+Safari 6.1 and up [PARTIAL: speech synthesis only; no recognition]
+Google Chrome 25 and up
+Firefox Desktop 44.0 and up (Linux and Mac) / 45.0 and up (Windows) [PARTIAL: speech synthesis only; no recognition; currently requires "media.webspeech.recognition.enable" about:config option to be manually changed to "true"]
+
+

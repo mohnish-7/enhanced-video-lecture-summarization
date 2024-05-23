@@ -1,0 +1,19 @@
+﻿Machine learning is a field of study in artificial intelligence which focuses on the development of algorithms to learn from data and perform tasks without explicit programming. The core objective of machine learning is to generalize from its experiences in order to accurately perform tasks on new, unseen examples.
+
+Tom M. Mitchell provided a widely quoted, more formal definition of the algorithms studied in the machine learning field: ” A computer program is said to learn from experience E with respect to some task T and some performance measure P if its’ performance on T, as measured by P, improves with experience E.” 
+
+As an example suppose that you have an email program that watches which meals you do or do not value spam, and based on that learns how to better filter spam. What is the task T in this setting? In this case, T would be task of classifying emails as spam or not spam. The experience E would be the act of the program watching you labels spam emails as spam or not spam. The performance measure P would be the numbers of emails correctly marked as spam or not spam.
+
+Machine learning approaches are traditionally divided into three broad categories, which correspond to learning paradigms, depending on the nature of the "signal" or "feedback" available to the learning system. 
+
+There are several different machine learning algorithms, but the main two types are called supervised and unsupervised learning algorithms.
+
+In supervised learning, the machine is taught to perform a task. The computer is presented with example inputs and their desired outputs, given by a "teacher", and the goal is to learn a general rule that maps inputs to outputs. 
+
+In unsupervised learning, the model is left to learn by itself. Unlabeled input data is given to the learning algorithm, leaving it on its own to find structure in its input. Unsupervised learning can be a goal in itself (discovering hidden patterns in data) or a means towards an end (feature learning). 
+
+Both reinforcement learning and recommender systems are other types of machine learning that will be talked about later, however, the two most used types of algorithms are supervised and supervised learning
+
+Another thing that this course will focus on is providing practical advice for applying machine learning algorithms effectively. Teaching about learning algorithms Is like giving a set of tools, and equally important is teaching how to apply these tools.
+
+The course aims to develop students' skills in designing and building robust machine learning and AI systems. By applying machine learning best practices, practitioners can increase their chances of success and avoid wasted effort.

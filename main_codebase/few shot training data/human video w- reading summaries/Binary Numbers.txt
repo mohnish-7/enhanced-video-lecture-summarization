@@ -1,0 +1,17 @@
+Computers are complex systems which require methods of representing values and letters. Computers do this by representing numeric value as a group of bits, such as bytes or words. The encoding of numerical value to bit patterns is chosen for convenience of the operation of the computer. 
+
+Single binary values represent numbers; 0 and 1 can be used to represent "true" and "false," allowing for information beyond these two values. Binary numbers work similarly to decimal numbers, using a base-two system with multipliers that are powers of two to represent larger numbers. For example, 73 is equal to seven 10's and three 1's in decimal, hence 73 in decimal form. For the binary representation, 73 is equal to one 64's, one 8's, and one 1's, hence 01001001 in binary form
+
+In the past, 8-bit systems were very commonly used, where each binary digit (bit) represents a certain value, with a range of 0-255. In fact, 8-bits is such a common size in computing, it is known as a byte. As the amount of data gets larger, we require larger numerical representations leading to numbers using larger bit sizes. The amount of possible combinations of bits doubles with each added bit, leading to numbers of possible combinations to be 2^b where b is the number of bits in the representation. Along with a larger range of numbers, there also comes a need to represent negative values and decimal values. Here are some of the ways that computers do that:
+
+* Representing negative numbers - Computers using 32 bit numbers represent negative numbers using the first bit, typically reserving 31 bits for the number itself.
+* Representing more numbers - 64-bit numbers expand the range of representable values to around 9.2 quintillion.
+* Representing non-whole numbers - Computers use floating-point numbers to represent non-whole numbers, with a significand and exponent.
+    * Example: 625.9 = 0.6259 * 10^3, where 0.6529 is the significand, and 3 is the exponent
+    * In 32 bit floating point numbers, often referred to as a float, the first bit is used for sign, 8 bits are used for exponent, last 23 are for significand.
+    * In 64 bit floating point numbers, often referred to as a double, the first bit is used for sign, 11 bits are used for exponent, last 52 are for significand.
+    * The advantage of this scheme is that by using the exponent we can get a much wider range of numbers, even if the number of digits in the significand, or the "numeric precision", is much smaller than the range.
+
+Aside from numbers, text is also represented in computers using encoding schemes like ASCII, which assigns binary numbers to letters. Using a 7-bit representation, we can encode 128 symbols that can be mapped to lowercase letters, uppercase letters, digits 0 - 9 and symbols such as @ and punctuation marks. ASCII also includes a selection of special command codes, corresponding to things like the new-line character.
+
+With this encoding scheme, we are able to universally exchange information, however, only designed for the English alphabet. Other countries could have other language characters encoded by using 8-bit representations, though this caused problems when exchanging information across different languages. For this reason, Unicode was devised to provide a universal encoding scheme for characters from multiple languages, using a 16-bit representation to represent every single character in every language ever used. 
